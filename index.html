@@ -4,7 +4,7 @@
 		<title>The Red Creeper</title>
 		<!-- Latest compiled and minified CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css">
-
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
 	<!-- Latest compiled and minified JavaScript -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
 
@@ -13,9 +13,18 @@
 	<meta charset="UTF-8">
 	<meta name="description" content="Minecraft Server Info">
 	<meta name="keywords" content="Minecraft,Minecraft Server,Communication,shop">
-	<meta name="author" content="Zachary Mayhew (zacklukem)"
+	<meta name="author" content="Zachary Mayhew (zacklukem)">
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$("#logo-flash").fadeIn("slow");
+			setTimeout(function(){$("#logo-flash").fadeOut("slow")}, 1500);
+		});
+	</script>
 	</head>
 	<body>
+		<div class="logo-flash" id="logo-flash"><p><br><br><br><br>The Red Creeper</p></div>
+
+
 		<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
 		  <div class="container-fluid">
  		   <!-- Brand and toggle get grouped for better mobile display -->
@@ -62,7 +71,7 @@
 						<p class="news"><b>Info</b></p>
 						<div class="jumbotron">
 							<p>
-								Come through the door, the door that leads you into a whole new world. A one particular world with animals waiting to be farmed,
+								Come through the door, the door that leads you into a whole new world. One particular world with animals waiting to be farmed,
 								blocks waiting to be mined, and fertile land waiting to be built on, only by you! This world holds many treasures, and many fates.
 								Now walk through this door and into another land, and ask yourself this question, what will YOU live for?
 							</p>

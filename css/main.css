@@ -62,3 +62,17 @@ td {
 .cols table tr td {
 	vertical-align: top;
 }
+.logo-flash {
+	max-height:600px; 
+	max-width:600px; 
+	min-height: 300px;
+	min-width: 300px;
+	position: fixed; 
+	background-color: red; 
+	top: 50%; left: 50%; 
+	margin-top: -100px; 
+	margin-left: -100px; 
+	display:none;
+	text-align: center;
+	border-radius: 100%;
+}
